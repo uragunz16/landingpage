@@ -18,10 +18,9 @@ li {
 a {
     text-decoration: none;
 }
-
 section {
-    max-width: 125rem;
-    margin: 0 auto;
+    max-width: 100%;
+    background-color: #1f2937;
 }
 /* helper */
 .l-p-med {
@@ -31,8 +30,10 @@ section {
     padding-right: 1rem;
 }
 /* header section */
-header {
-    background-color: #1f2937;    
+section header {
+    margin: 0 auto;
+    max-width: 75%;
+    max-height: 80vh;
 }
 nav {
     display: flex;
@@ -43,8 +44,13 @@ nav {
     font-size: 2.8rem;
     font-weight: 900;
 }
-.main_nav {
+ul {
     font-size: 1.8rem;
+}
+.main_nav {
     color: #e5e7eb;
     display: flex;
+}
+.main_nav li {
+    padding-right: 1rem;
 }
