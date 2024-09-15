@@ -49,9 +49,8 @@ button {
     padding-bottom: 1.5rem;
 }
 
-a,
-.header_logo,
-.btn,
+a, .btn,
+.header_logo, 
 .left_text_para h1,
 .left_text_para p {
     color: #e5e7eb;
