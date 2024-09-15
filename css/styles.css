@@ -32,7 +32,9 @@ section {
 }
 /* header section */
 header {
-    background-color: #1f2937;
+    background-color: #1f2937;    
+}
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
