@@ -25,10 +25,10 @@ section {
 }
 /* helper */
 .l-p-med {
-    padding-left: .8rem;
+    padding-left: 1rem;
 }
 .r-p-med {
-    padding-right: .8rem;
+    padding-right: 1rem;
 }
 /* header section */
 header {
@@ -37,4 +37,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+.header_logo {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.main_nav {
+    font-size: 1.8rem;
+    color: #e5e7eb;
+    display: flex;
+}
