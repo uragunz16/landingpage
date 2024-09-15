@@ -24,6 +24,7 @@ section {
     background-color: #1f2937;
 }
 button {
+    margin-top: 1.5rem;
     padding: 1rem 3rem;
 }
 /* helper */
@@ -40,7 +41,6 @@ button {
 section header {
     margin: 0 auto;
     max-width: 75%;
-    /* max-height: 80vh; */
 }
 nav {
     display: flex;
@@ -72,7 +72,7 @@ ul {
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 1rem 2rem 1rem 2rem;
+    /* padding: 1rem 2rem 1rem 2rem; */
 }
 .left_text_para h1 {
     font-size: 4.8rem;
