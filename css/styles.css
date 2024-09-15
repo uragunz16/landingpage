@@ -17,10 +17,14 @@ li {
 }
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 section {
     max-width: 100%;
     background-color: #1f2937;
+}
+button {
+    padding: 1rem 3rem;
 }
 /* helper */
 .l-p-med {
@@ -29,16 +33,20 @@ section {
 .r-p-med {
     padding-right: 1rem;
 }
+.p-btm {
+    padding-bottom: 1.5rem;
+}
 /* header section */
 section header {
     margin: 0 auto;
     max-width: 75%;
-    max-height: 80vh;
+    /* max-height: 80vh; */
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 0 2rem 0;
 }
 .header_logo {
     font-size: 2.8rem;
@@ -47,10 +55,43 @@ nav {
 ul {
     font-size: 1.8rem;
 }
-.main_nav {
-    color: #e5e7eb;
+.main_nav {    
     display: flex;
 }
-.main_nav li {
-    padding-right: 1rem;
+.main_nav li:not(:last-child) {
+    padding-right: 2rem;
+}
+/* hero */
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0 5rem 0;
+}
+.left_text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.left_text_para h1 {
+    font-size: 4.8rem;
+}
+.left_text_para p {
+    font-size: 1.8rem;
+}
+.btn {
+    font-size: 1.8rem;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+}
+.right_images {
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+.hero_image {
+    width: 100%;
 }
