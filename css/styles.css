@@ -18,8 +18,23 @@ li {
 a {
     text-decoration: none;
 }
-/* setting a container */
+
 section {
-    max-width: 135rem;
+    max-width: 125rem;
     margin: 0 auto;
 }
+/* helper */
+.l-p-med {
+    padding-left: .8rem;
+}
+.r-p-med {
+    padding-right: .8rem;
+}
+/* header section */
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
